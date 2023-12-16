@@ -9,6 +9,6 @@ void zad1()
     cout << "Podaj n: ";
     cin >> n;
 
-    cout << "Liczb naturalnych mniejszych od " << n << " podzielnych przez 5, ale nie przez 3 jest: "
+    cout << "Liczb naturalnych nie mniejszych od " << n << " podzielnych przez 5, ale nie przez 3 jest: "
         << (n / 5) - (n / 15);
 }
